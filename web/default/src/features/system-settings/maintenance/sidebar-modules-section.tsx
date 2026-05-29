@@ -130,6 +130,10 @@ export function SidebarModulesSection({
         title: t('Channels'),
         description: t('Configure upstream providers and routing.'),
       },
+      key_pool: {
+        title: t('Key Pools'),
+        description: t('Import and manage upstream account API key pools.'),
+      },
       models: {
         title: t('Models'),
         description: t('Manage catalog visibility and pricing.'),
